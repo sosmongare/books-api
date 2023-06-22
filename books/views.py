@@ -4,7 +4,7 @@ from .serializers import BookSerializer
 from .models import Book
 
 # Create your views here.
-class BookViewSet(viewsets.BookViewSet):
+class BookViewSet(viewsets.ModelViewSet):
     queryset = Book.objects.all().order_by('title')
     serializer_class = BookSerializer
 
