@@ -59,7 +59,7 @@ This project demonstrates the creation of a simple REST API for managing books u
    python manage.py runserver
    ```
 
-9. The API will be available at `http://localhost:8000/`. You can now use a tool like Postman to test the API endpoints.
+9. The API will be available at `http://127.0.0.1:8000/`. You can now use a tool like Postman to test the API endpoints.
 
 ## API Endpoints
 
