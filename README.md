@@ -21,19 +21,19 @@ This project demonstrates the creation of a simple REST API for managing books u
 2. Navigate to the project directory:
 
    ```bash
-   cd book-rest-api
+   cd book_rest_api
    ```
 
 3. Create a virtual environment:
 
    ```bash
-   python3 -m venv env
+   python -m venv env
    ```
 
 4. Activate the virtual environment:
 
    ```bash
-   source env/bin/activate
+   env/scripts/activate
    ```
 
 5. Install the project dependencies:
@@ -44,7 +44,7 @@ This project demonstrates the creation of a simple REST API for managing books u
 
 6. Configure the MySQL database settings:
 
-   - Open the `bookapi/settings.py` file.
+   - Open the `books_rest_api/settings.py` file.
    - Update the `DATABASES` configuration with your MySQL database credentials.
 
 7. Run the database migrations:
@@ -71,7 +71,7 @@ This project demonstrates the creation of a simple REST API for managing books u
 
 ## Authentication and Permissions
 
-This API does not require authentication for accessing the endpoints. However, you can customize the authentication and permission settings in the Django settings file (`bookapi/settings.py`) as per your requirements.
+This API does not require authentication for accessing the endpoints. However, you can customize the authentication and permission settings in the Django settings file (`books_rest_api/settings.py`) as per your requirements.
 
 ## Contributing
 
